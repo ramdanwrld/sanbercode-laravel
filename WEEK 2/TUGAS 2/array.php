@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1>Berlatih Array</h1>
-
     <?php
     echo "<h3> Soal 1 </h3>";
     /* 
@@ -114,14 +113,14 @@
                 )
             
         */
-    $Arr3 = [
+    $Array3 = [
         ["Name" => "Will Byers", "Age" => "12", "Aliases" => "Will the Wise", "Status" => "Alive"],
         ["Name" => "Mike Wheeler", "Age" => "12", "Aliases" => "Dugeon Master", "Status" => "Alive"],
         ["Name" => "Jim Hooper", "Age" => "43", "Aliases" => "Chief Hopper", "Status" => "Deceased"],
         ["Name" => "Eleven", "Age" => "12", "Aliases" => "El", "Status" => "Alive"],
     ];
     echo "<pre>";
-    print_r($Arr3);
+    print_r($Array3);
     echo "</pre>";
     ?>
 </body>
