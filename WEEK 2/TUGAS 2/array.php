@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Array</title>
 </head>
-
 <body>
     <h1>Berlatih Array</h1>
 
@@ -24,8 +22,6 @@
     print_r($kids);
     echo "<br>";
     print_r($adults);
-
-
     echo "<h3> Soal 2</h3>";
     /* 
             SOAL NO 2
@@ -44,7 +40,6 @@
     echo "<li> $kids[4] </li>";
     echo "<li> $kids[5] </li>";
     echo "</ol>";
-
     echo "Total Adults: " . count($adults); // Berapa panjang array adults
     echo "<br>";
     echo "<ol>";
@@ -55,8 +50,6 @@
     echo "<li> $adults[3] </li>";
     echo "<li> $adults[4] </li>";
     echo "</ol>";
-
-
     echo "<h3> Soal 3</h3>";
     /*
             SOAL No 3
@@ -132,5 +125,4 @@
     echo "</pre>";
     ?>
 </body>
-
 </html>
