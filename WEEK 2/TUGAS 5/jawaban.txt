@@ -1,7 +1,6 @@
 Soal no.1 Membuat Database :
 create database myshop;
 
-
 Soal no.2 Membuat Table di Dalam Database : 
 Table users:
 MariaDB [myshop]> create table users(
@@ -31,7 +30,6 @@ MariaDB [myshop]> create table categories(
     -> primary key(id)
     -> );
 
-
 Soal no.3 Memasukkan Data pada Table :
 Table users :
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (NULL, 'John Doe', 'john@doe.com', 'john123');
@@ -49,7 +47,6 @@ INSERT INTO `items` (`id`, `name`, `description`, `price`, `stock`, `category_id
 INSERT INTO `items` (`id`, `name`, `description`, `price`, `stock`, `category_id`) VALUES (NULL, 'Uniklooh', 'baju keren dari brand ternama', '500000', '50', '2');
 INSERT INTO `items` (`id`, `name`, `description`, `price`, `stock`, `category_id`) VALUES (NULL, 'IMHO Watch', 'jam tangan anak yang jujur banget', '2000000', '10', '1');
 
-
 Soal no.4 Mengambil Data dari Database :
 a. Mengambil data users :
    SELECT id, name, email FROM users;
@@ -59,8 +56,7 @@ b. Mengambil data items :
    SELECT * FROM `items` WHERE name LIKE 'uniklo%';
    
 c. Menampilkan data items join dengan kategori 
-   SELECT items.id, items.name, items.description, items.price, items.stock, items.category_id, categories.name AS kategori FROM items JOIN categories on items.category_id = categories.id;
-
+   SELECT items.id, items.name, items.description, items.price, items.stock, items.category_id, categories.name AS kategori FROM items JOIN categories on items.category_id =        categories.id;
 
 Soal no.5 Mengubah Data dari Database :
 UPDATE `items` SET price=2500000 WHERE LIKE 'sumsang';
